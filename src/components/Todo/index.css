@@ -1,0 +1,67 @@
+.bg-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightslategrey;
+    color: white;
+    min-height: 100vh;
+}
+.heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.input-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:20px;
+    width: 60vh;
+}
+.input{
+    padding: 15px;
+    width:400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border:none;
+    font-size: 15px;
+}
+.button{
+    background-color: rgb(44, 87, 139);
+    color: white;
+    border: none;
+    padding: 10px;
+    width:30%;
+    border-radius: 10px;
+}
+.eachTodo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(44, 87, 139);
+    margin-bottom: 10px;
+    color: white;
+    width:55vh;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.del-btn{
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.update-btn{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
